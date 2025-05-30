@@ -57,10 +57,9 @@ header p {
   
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 0;
   background-color: #f0f0f0;
-  border-radius: 10px;
 }
 
 .gallery-container1{
