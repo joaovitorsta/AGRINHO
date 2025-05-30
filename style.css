@@ -1,1 +1,103 @@
+/* Resetando estilos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo cores e fontes */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  color: #006400; /* Cor verde para remeter ao campo */
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilo do header */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilo para a galeria de imagens */
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: #f0f0f0;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.image-item p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Estilo do footer */
+footer {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
 
