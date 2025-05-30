@@ -14,7 +14,7 @@ h1, h2 {
   color: #006400; 
 }
 
-.container {
+.container{
   width: 80%;
   margin: 0 auto;
 }
@@ -53,34 +53,16 @@ header p {
   margin: 0 auto;
 }
 
-.image-gallery {
+.gallery{
   display: flex;
   justify-content: space-around;
   padding: 40px 0;
   background-color: #f0f0f0;
 }
 
-.image-item {
-  text-align: center;
-}
-
-.image-item img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.image-item img:hover {
-  transform: scale(1.05);
-}
-
-.image-item p {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  color: #333;
+.gallery-container{
+  width: 80%;
+  margin: 0 auto;
 }
 
 footer {
