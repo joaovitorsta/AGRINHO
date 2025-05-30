@@ -60,9 +60,16 @@ header p {
   background-color: #f0f0f0;
 }
 
-.gallery-container{
+.gallery-container1{
   width: 80%;
   margin: 0 auto;
+  border-top: black;
+}
+
+.gallery-container2{
+  width: 80%;
+  margin: 0 auto;
+  border-top: black;
 }
 
 footer {
