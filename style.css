@@ -59,36 +59,31 @@ header p {
 
 .gallery {
   display: flex;
-  justify-content: space-between;
-  text-allign: center;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
   flex-direction: column;
+  text-align: center;
   padding: 40px;
-  margin: 50px;
+  margin: 50px auto;
   background-color: #f0f0f0;
-  margin-top: 20px; 
+  width: 80%;
+  border-radius: 8px; /* Opicional, só para um visual mais agradável */
 }
 
-.gallery h1{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  allign-itens: center;
-  text-allign: center;
-  
+.gallery h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .gallery-container1,
 .gallery-container2 {
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  allign-itens: center;
-  text-allign: center;
-  width: 80%;
-  height: auto;
-  margin: 30px;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-wrap: wrap; /* Permite quebra de linha caso os elementos não caibam na mesma linha */
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
 }
 
 footer {
