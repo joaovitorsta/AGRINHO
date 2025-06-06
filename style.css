@@ -90,7 +90,9 @@ header p {
   flex-wrap: wrap; /* Permite quebra de linha caso os elementos não caibam na mesma linha */
   text-align: center;
   width: 100%;
-  margin: 20px 0;
+  margin: 20px;
+  margin-top: 20px;
+
 }
 
 footer {
