@@ -70,6 +70,13 @@ header p {
   border-radius: 8px; /* Opicional, só para um visual mais agradável */
 }
 
+.gallery p{
+
+  padding: 10px;
+  font-family:;
+  
+}
+
 .gallery h1 {
   font-size: 2rem;
   margin-bottom: 20px;
