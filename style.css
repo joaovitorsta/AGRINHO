@@ -70,8 +70,11 @@ header p {
 
 .gallery h1{
 
-  display:flex;
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  allign-itens: center;
+  text-allign: center;
   
 }
 
