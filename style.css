@@ -60,9 +60,11 @@ header p {
 .gallery {
   display: flex;
   justify-content: space-around;
-  padding: 40px 0;
+  flex-direction: column;
+  padding: 40px;
+  margin: 50px;
   background-color: #f0f0f0;
-  margin-top: 20px; /* Adicionando um pequeno espaço entre a galeria e o conteúdo acima */
+  margin-top: 20px; 
 }
 
 .gallery-container1,
