@@ -68,7 +68,8 @@ header p {
 .gallery-container1,
 .gallery-container2 {
   width: 80%;
-  margin: 0 auto;
+  height: auto;
+  margin: 30px;
 }
 
 footer {
