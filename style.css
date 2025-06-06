@@ -68,6 +68,13 @@ header p {
   margin-top: 20px; 
 }
 
+.gallery h1{
+
+  display:flex;
+  justify-content:center;
+  
+}
+
 .gallery-container1,
 .gallery-container2 {
 
