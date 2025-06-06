@@ -71,8 +71,8 @@ header p {
 .gallery-container1,
 .gallery-container2 {
 
-  border: 3px solid black;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   text-allign: center;
   width: 80%;
