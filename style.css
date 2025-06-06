@@ -15,28 +15,35 @@ body {
 
 h1, h2 {
   color: #006400;
+  font-family: 'Poppins', sans-serif; /* Fonte mais moderna para os títulos */
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  flex-grow: 1; /* Faz com que a container ocupe o espaço restante */
-}
-
-header {
-  background-color: #4caf50;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
-}
-
-header h1 {
+h1 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.2rem;
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600; /* Mais espessura no subtítulo */
+  color: #4caf50; /* Verde mais vibrante */
+  text-transform: uppercase; /* Maiúsculas para maior destaque */
+  letter-spacing: 2px; /* Maior espaçamento entre as letras */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+}
+
+h3, h4, h5 {
+  font-family: 'Roboto', sans-serif; /* Fonte mais clean para subtítulos menores */
+  color: #333;
+  font-size: 1.8rem; /* Tamanho de fonte mais adequado */
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 2rem; /* Um pouco maior que o padrão */
+  color: #006400;
 }
 
 .intro {
@@ -46,7 +53,7 @@ header p {
 }
 
 .intro h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #006400;
   margin-bottom: 20px;
 }
@@ -59,15 +66,15 @@ header p {
 
 .gallery {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
-  align-items: center; /* Alinha verticalmente */
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 40px;
   margin: 50px auto;
   background-color: #f0f0f0;
   width: 80%;
-  border-radius: 8px; /* Opicional, só para um visual mais agradável */
+  border-radius: 8px;
 }
 
 .gallery h1 {
@@ -78,9 +85,9 @@ header p {
 .gallery-container1,
 .gallery-container2 {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  flex-wrap: wrap; /* Permite quebra de linha caso os elementos não caibam na mesma linha */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   width: 100%;
   margin: 20px 0;
@@ -91,9 +98,12 @@ footer {
   color: white;
   padding: 20px 0;
   text-align: center;
-  margin-top: auto; /* Garante que o footer fique sempre na parte inferior */
+  margin-top: auto;
 }
 
 footer p {
   font-size: 1rem;
 }
+
+/* Adicionando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap');
