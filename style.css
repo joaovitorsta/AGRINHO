@@ -59,7 +59,8 @@ header p {
 
 .gallery {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-allign: center;
   flex-direction: column;
   padding: 40px;
   margin: 50px;
